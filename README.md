@@ -1,5 +1,13 @@
 ## JSONSelect Conformance Tests.
 
+This repository contains conformance tests for the
+[JSONSelect](http://jsonselect.org) selector language.  The tests
+are divided among subdirectories which correspond to "level" supported
+by a particular implementation.  Levels are described more fully in the 
+jsonselect [documentation](http://jsonselect.org/#docs).
+
+## Test organization
+
 Test documents have a suffix of `.json`, like `basic.json`.
 
 Selectors to be applied to test documents have the document name,
